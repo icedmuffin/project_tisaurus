@@ -1,0 +1,46 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer{
+margin-top: 6rem;
+
+}
+
+.link  {
+    display: block;
+}
+
+.judul{
+    padding: 4em 0;
+    font-weight: 700;
+}
+.pencarian{
+    margin-bottom: 3rem;
+}
+
+.index-pembukaan{
+    margin: 4rem 0;
+}
+
+.istilah-populer{
+    
+
+}
+
+.bone{
+    box-sizing:;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1px;
+    margin-top: 10px;
+}
+
+#index-custom-search{
+   padding: 0 3rem;
+}
+
+.navbar{
+    border-bottom: 1px solid #e0e0e0;
+}
