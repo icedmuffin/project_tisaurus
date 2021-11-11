@@ -1,5 +1,11 @@
 
-
+img{
+    width: auto;
+    height: 100%;
+}
+a{
+    color: rgb(95, 95, 95);
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 275px) {
@@ -9,7 +15,7 @@
     }
     
     .footer{
-    margin-top: 6rem;
+    
     
     }
     
@@ -141,6 +147,39 @@
     .kiri{
         display: none;
     }
+
+    /* pencarian */
+    .kotak-hasil{
+        padding: 1rem;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        margin: 20px 20px;
+    }
+
+    .judul-post-pencarian{
+        
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* custom 404 */
+    .box-404{
+        background-color: rgb(255, 252, 242);
+        padding-bottom: 100px;
+        padding-top: 80px ;
+    }
+    .custom-404{
+       
+        font-size: 5rem;
+        text-align: center;
+    }
+    .keterangan-404{
+        font-size: 1.5rem;
+        font-weight: 300;;
+        text-align: center;
+    }
+
+
 }
   
    
@@ -178,6 +217,18 @@
         flex-direction: row;
         /* background-color: red; */
         justify-content: space-between;
+    }
+
+    .judul-post-pencarian{
+        
+        font-weight: 500;
+        text-align: center;
+        color: #2c2d30;
+        
+        
+    }
+    .pencarian-judul{
+        border-right: 1px solid  #ced4da;
     }
  }
 
