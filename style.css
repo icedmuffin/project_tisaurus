@@ -1,46 +1,192 @@
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
-.footer{
-margin-top: 6rem;
 
-}
 
-.link  {
-    display: block;
-}
-
-.judul{
-    padding: 4em 0;
-    font-weight: 700;
-}
-.pencarian{
-    margin-bottom: 3rem;
-}
-
-.index-pembukaan{
-    margin: 4rem 0;
-}
-
-.istilah-populer{
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 275px) {
+    body{
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        font-family: 'Mulish', sans-serif;
+    }
     
+    .footer{
+    margin-top: 6rem;
+    
+    }
+    
+    .link  {
+        display: block;
+    }
+    
+    .judul{
+        padding: 1em 0;
+        color:#000000;
+       
+    }
+    .pencarian{
+        margin-bottom: 3rem;
+    }
+    
+    .index-pembukaan{
+        margin: 4rem 0;
+    }
+    
+    
+    .bone{
+        box-sizing:;
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 1px;
+        margin-top: 10px;
+    }
+    
+    #index-custom-search{
+       padding: 0 3rem;
+    }
+    
+    .navbar{
+        border-bottom: 1px solid #e0e0e0;
+        /* background-color: #FAFBFF; */
+    }
+    
+    .tulisan{
+    font-size: 15px;    
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 20px;
+    padding-bottom: 1rem;
+    }
+    
+    .judul-konten{
+        font-weight: 700;
+        margin: 3rem 0;
+        /* color: rgb(144, 109, 201); */
+        
+    }
+    
+    .sub-judul-konten{
+        font-weight: 600;
+        padding-bottom: 1rem;
+        /* color: rgb(144, 109, 201); */
+    }
 
-}
 
-.bone{
-    box-sizing:;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 1px;
-    margin-top: 10px;
-}
+    /* navigasi bar */
 
-#index-custom-search{
-   padding: 0 3rem;
-}
+    #nav-single{
+        /* margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    .single-cari{
+        margin: 1rem 0;
+    }
 
-.navbar{
-    border-bottom: 1px solid #e0e0e0;
+    .heading-cari{
+        /* border-top: 1px solid #e0e0e0; */
+        padding: 1em 0;
+        
+        
+    }
+    #custom-nav{
+        /* background-color: rgb(247, 247, 247); */
+        background-color: white;  
+        
+    }
+
+    .logo{
+        color: rgb(113, 113, 113);
+    }
+    
+    #custom-nav a{
+        color: rgb(113, 113, 113);
+        
+       
+    }
+    
+    .btn{
+        /* background-color: rgb(97, 151, 244); */
+        /* color: white; */
+        border: 1px solid #ced4da;
+        background-color: #FAFBFF;
+    }
+    #search-box{
+        padding-right: 0.4em;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border: none;
+    }
+  
+    .full-mobile{
+        /* background-color: blueviolet; */
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .random-box{
+        height: 10rem;
+    }
+    .form-control{
+        border-radius: 3rem;
+    }
+    .btn{
+        border-radius: 3rem;
+
+    }
+    .kiri{
+        display: none;
+    }
 }
+  
+   
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .full-mobile{
+        /* background-color: blueviolet; */
+        height: 0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+        
+    }
+    .full-mobile{
+        display: none;
+    }
+    .heading-cari{
+        display: none;
+    }
+    .sticky-top{
+        position:static;
+    }
+    .random-box{
+        display: none;
+    }
+    .kiri{
+        display: inline-block;
+    }
+    .custom-desktop{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        /* background-color: red; */
+        justify-content: space-between;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
