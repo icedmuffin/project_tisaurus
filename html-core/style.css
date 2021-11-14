@@ -4,14 +4,14 @@ img{
     height: 100%;
 }
 a{
-    color: rgb(91, 158, 235);
+    color: #70604e;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 275px) {
     body{
-        /* font-family: 'Source Sans Pro', sans-serif; */
-        font-family: 'Mulish', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        /* font-family: 'Mulish', sans-serif; */
     }
     
     
@@ -34,12 +34,13 @@ a{
     
     
     .bone{
-        box-sizing:;
-        border: 1px solid #e0e0e0;
+       
+        /* border: 1px solid #d4d4d4; */
         border-radius: 10px;
         padding: 20px;
         margin: 1px;
         margin-top: 10px;
+        box-shadow: 0px 1px 10px rgb(216, 216, 216);
     }
     
     #index-custom-search{
@@ -47,8 +48,9 @@ a{
     }
     
     .navbar{
-        border-bottom: 1px solid #e0e0e0;
+        /* border-bottom: 1px solid #e0e0e0; */
         /* background-color: #FAFBFF; */
+        box-shadow: 0px 5px 10px rgb(228, 228, 228);
     }
     
     .tulisan{
@@ -94,6 +96,7 @@ a{
     #custom-nav{
         /* background-color: rgb(247, 247, 247); */
         background-color: white;  
+        
         
     }
 
@@ -181,9 +184,9 @@ a{
     }
 
     .footer-header-nav{
-        font-size: 1.8rem;
-        border-bottom: 1px solid #fff;
-        font-weight: 600;
+        font-size: 1.4rem;
+        border-bottom: 2px solid #c5c5c5;
+        font-weight: 400;
         padding: 0.2em;
     }
 
@@ -195,12 +198,18 @@ a{
     /* atur warna */
 
     .footer{
+        margin-top: 100px;
+        background-color: #22273c;
+        /* box-shadow: 0px -1px 10px rgb(211, 211, 211); */
+    }
+    .footer a{
     
-        background-color: #607BFA;
+        color: #c5c5c5;
     }
 
+
     .footer-header-nav, .copyright, .footer-nav{
-        color: white;
+        color: #c5c5c5;
     }
 
 
@@ -261,7 +270,7 @@ a{
         padding: 1rem 1rem;
      }
     .footer-header-nav{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         border-bottom: 1px solid #ced4da;
         text-align: center;
     }
