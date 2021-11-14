@@ -4,7 +4,7 @@ img{
     height: 100%;
 }
 a{
-    color: rgb(95, 95, 95);
+    color: rgb(91, 158, 235);
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -14,10 +14,6 @@ a{
         font-family: 'Mulish', sans-serif;
     }
     
-    .footer{
-    
-    
-    }
     
     .link  {
         display: block;
@@ -179,6 +175,35 @@ a{
         text-align: center;
     }
 
+    /* footer nav */
+    .footer-container{
+        padding: 1rem 3rem;
+    }
+
+    .footer-header-nav{
+        font-size: 1.8rem;
+        border-bottom: 1px solid #fff;
+        font-weight: 600;
+        padding: 0.2em;
+    }
+
+    .copyright{
+        margin-bottom: 0;
+        padding-bottom: 0.5em;
+    }
+
+    /* atur warna */
+
+    .footer{
+    
+        background-color: #607BFA;
+    }
+
+    .footer-header-nav, .copyright, .footer-nav{
+        color: white;
+    }
+
+
 
 }
   
@@ -229,6 +254,16 @@ a{
     }
     .pencarian-judul{
         border-right: 1px solid  #ced4da;
+    }
+
+     /* footer nav */
+     .footer-container{
+        padding: 1rem 1rem;
+     }
+    .footer-header-nav{
+        font-size: 1.8rem;
+        border-bottom: 1px solid #ced4da;
+        text-align: center;
     }
  }
 
