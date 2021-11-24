@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
 </head>
@@ -46,14 +46,17 @@
         <!-- form search -->
         <div class="row justify-content-center pencarian">
             <div class="col-lg-6">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Cari Istilah TI" aria-label="Istilah TI"
-                        aria-describedby="istilah-ti">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" id="index-custom-search" type="button"
-                            id="istilah-ti">Cari</button>
+                <form action="get">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Cari Istilah TI" aria-label="Istilah TI"
+                            aria-describedby="istilah-ti">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" id="index-custom-search" type="button"
+                                id="istilah-ti">Cari</button>
+                        </div>
                     </div>
-                </div>
+                </form>
+
             </div>
         </div>
 
@@ -121,65 +124,51 @@
 
 
     </div>
+    <br>
     <footer class="footer">
-        <hr>
+
         <div class="container">
             <div class="row text-md-left text-center">
-                <div class="col-sm-3">
-                    <h2>Tisaurus</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta ab autem assumenda ducimus
-                        ipsum
-                        provident temporibus labore</p>
+                <div class="col-sm-4">
+                    <div class="footer-container">
+                        <h2 class="footer-header-nav">Tentang Tisaurus</h2>
+                        <p class="footer-nav">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta ab autem
+                            assumenda ducimus
+                            ipsum
+                            provident temporibus labore
+                        </p>
+                        <a href="#" class="link">
+                            Pelajari lebih dalam
+                        </a>
+
+                    </div>
+
                 </div>
-                <div class="col-sm-3">
-                    <h2>Footer</h2>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
+
+                <div class="col-sm-4">
+                    <div class="footer-container">
+                        <h2 class="footer-header-nav">Kontak Kami</h2>
+                        <p class="footer-nav">
+                            Gmail : <br>
+                            whatsapp : <br>
+                            Instagram : <br>
+
+                        </p>
+                    </div>
+
                 </div>
-                <div class="col-sm-3">
-                    <h2>Footer</h2>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                </div>
-                <div class="col-sm-3">
-                    <h2>Footer</h2>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
-                    <a href="#" class="link">
-                        lorem ipsum footer
-                    </a>
+                <div class="col-sm-4">
+                    <div class="footer-container">
+                        <h2 class="footer-header-nav">Sitemap</h2>
+                        <a href="#" class="link">
+                            Tisaurus Sitemap
+                        </a>
+                    </div>
                 </div>
             </div>
             <hr>
             <div class="copyright">
-                <p class="text-center">Copyright Tisaurus 2021</p>
+                <p class="text-center copyright">Copyright Tisaurus 2021</p>
             </div>
         </div>
     </footer>

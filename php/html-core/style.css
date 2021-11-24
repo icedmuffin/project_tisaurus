@@ -1,0 +1,287 @@
+
+img{
+    width: auto;
+    height: 100%;
+}
+a{
+    color: #70604e;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 275px) {
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+        /* font-family: 'Mulish', sans-serif; */
+    }
+    
+    
+    .link  {
+        display: block;
+    }
+    
+    .judul{
+        padding: 1em 0;
+        color:#000000;
+       
+    }
+    .pencarian{
+        margin-bottom: 3rem;
+    }
+    
+    .index-pembukaan{
+        margin: 4rem 0;
+    }
+    
+    
+    .bone{
+       
+        /* border: 1px solid #d4d4d4; */
+        border-radius: 10px;
+        padding: 20px;
+        margin: 1px;
+        margin-top: 10px;
+        box-shadow: 0px 1px 10px rgb(216, 216, 216);
+    }
+    
+    #index-custom-search{
+       padding: 0 3rem;
+    }
+    
+    .navbar{
+        /* border-bottom: 1px solid #e0e0e0; */
+        /* background-color: #FAFBFF; */
+        box-shadow: 0px 5px 10px rgb(228, 228, 228);
+    }
+    
+    .tulisan{
+    font-size: 15px;    
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 20px;
+    padding-bottom: 1rem;
+    }
+    
+    .judul-konten{
+        font-weight: 700;
+        margin: 3rem 0;
+        /* color: rgb(144, 109, 201); */
+        
+    }
+    
+    .sub-judul-konten{
+        font-weight: 600;
+        padding-bottom: 1rem;
+        /* color: rgb(144, 109, 201); */
+    }
+
+
+    /* navigasi bar */
+
+    #nav-single{
+        /* margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    .single-cari{
+        margin: 1rem 0;
+    }
+
+    .heading-cari{
+        /* border-top: 1px solid #e0e0e0; */
+        padding: 1em 0;
+        
+        
+    }
+    #custom-nav{
+        /* background-color: rgb(247, 247, 247); */
+        background-color: white;  
+        
+        
+    }
+
+    .logo{
+        color: rgb(113, 113, 113);
+    }
+    
+    #custom-nav a{
+        color: rgb(113, 113, 113);
+        
+       
+    }
+    
+    .btn{
+        /* background-color: rgb(97, 151, 244); */
+        /* color: white; */
+        border: 1px solid #ced4da;
+        background-color: #FAFBFF;
+    }
+    #search-box{
+        padding-right: 0.4em;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border: none;
+    }
+  
+    .full-mobile{
+        /* background-color: blueviolet; */
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .random-box{
+        height: 10rem;
+    }
+    .form-control{
+        border-radius: 3rem;
+    }
+    .btn{
+        border-radius: 3rem;
+
+    }
+    .kiri{
+        display: none;
+    }
+
+    /* pencarian */
+    .kotak-hasil{
+        padding: 1rem;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        margin: 20px 20px;
+    }
+
+    .judul-post-pencarian{
+        
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* custom 404 */
+    .box-404{
+        background-color: rgb(255, 252, 242);
+        padding-bottom: 100px;
+        padding-top: 80px ;
+    }
+    .custom-404{
+       
+        font-size: 5rem;
+        text-align: center;
+    }
+    .keterangan-404{
+        font-size: 1.5rem;
+        font-weight: 300;;
+        text-align: center;
+    }
+
+    /* footer nav */
+    .footer-container{
+        padding: 1rem 3rem;
+    }
+
+    .footer-header-nav{
+        font-size: 1.4rem;
+        border-bottom: 2px solid #c5c5c5;
+        font-weight: 400;
+        padding: 0.2em;
+    }
+
+    .copyright{
+        margin-bottom: 0;
+        padding-bottom: 0.5em;
+    }
+
+    /* atur warna */
+
+    .footer{
+        margin-top: 100px;
+        background-color: #22273c;
+        /* box-shadow: 0px -1px 10px rgb(211, 211, 211); */
+    }
+    .footer a{
+    
+        color: #c5c5c5;
+    }
+
+
+    .footer-header-nav, .copyright, .footer-nav{
+        color: #c5c5c5;
+    }
+
+
+
+}
+  
+   
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .full-mobile{
+        /* background-color: blueviolet; */
+        height: 0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+        
+    }
+    .full-mobile{
+        display: none;
+    }
+    .heading-cari{
+        display: none;
+    }
+    .sticky-top{
+        position:static;
+    }
+    .random-box{
+        display: none;
+    }
+    .kiri{
+        display: inline-block;
+    }
+    .custom-desktop{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        /* background-color: red; */
+        justify-content: space-between;
+    }
+
+    .judul-post-pencarian{
+        
+        font-weight: 500;
+        text-align: center;
+        color: #2c2d30;
+        
+        
+    }
+    .pencarian-judul{
+        border-right: 1px solid  #ced4da;
+    }
+
+     /* footer nav */
+     .footer-container{
+        padding: 1rem 1rem;
+     }
+    .footer-header-nav{
+        font-size: 1.5rem;
+        border-bottom: 1px solid #ced4da;
+        text-align: center;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

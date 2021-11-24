@@ -1,0 +1,362 @@
+/*
+Theme Name: tisaurus
+Theme URI:	
+Author:	Naufal Sunandar	
+Author URI:	https://www.instagram.com/naufal_sunandar/
+Text Domain: test
+Version: 1.4
+Requires at least: 5.5
+Requires PHP: 7.0
+Tested up to: 5.8
+Description: custom page Tisaurus Indonesia
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Tags: block-patterns, block-styles, grid-layout, wide-blocks, custom-background, custom-colors, threaded-comments, custom-menu, custom-logo, featured-images, blog
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 3.0 (https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+
+img{
+    width: auto;
+    height: 100%;
+    margin-top: 1rem;
+}
+figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.tulisan h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+a{
+    color: #6295ed;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 275px) {
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+        /* font-family: 'Mulish', sans-serif; */
+        
+    }
+    
+    
+    .link  {
+        display: block;
+    }
+    
+    .judul{
+        padding: 1em 0;
+        color:#000000;
+       
+    }
+    .pencarian{
+        margin-bottom: 3rem;
+    }
+    
+    .index-pembukaan{
+        margin: 4rem 0;
+    }
+    
+    
+    .bone{
+       
+        /* border: 1px solid #d4d4d4; */
+        border-radius: 10px;
+        padding: 20px;
+        margin: 1px;
+        margin-top: 10px;
+        box-shadow: 0px 1px 10px rgb(216, 216, 216);
+        margin-top: 3rem;
+    }
+
+    .popular-header{
+        color: #262b4d;
+        font-weight: 600;
+    }
+    .popular-header:hover{
+        text-decoration: none;
+        color: rgb(97, 141, 235);
+    }
+
+    .popular-number{
+        color: #a99141;
+        font-weight: 600;
+        
+            
+    }
+    
+    #index-custom-search{
+       padding: 0 3rem;
+    }
+    .custom-height{
+     
+        padding: 1.5rem;
+    }
+    
+    .navbar{
+        /* border-bottom: 1px solid #e0e0e0; */
+        /* background-color: #FAFBFF; */
+        box-shadow: 0px 5px 10px rgb(228, 228, 228);
+    }
+    
+    .tulisan p{
+    font-size: 1rem;    
+    /* font-weight: 400; */
+    letter-spacing: .3px;
+    /* line-height: 20px; */
+    padding-bottom: 1rem;
+    }
+
+    .tulisan h2{
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    
+    .judul-konten{
+        font-weight: 700;
+        margin-top: 3rem;
+        margin-bottom: 0;
+        
+    }
+
+
+    /* navigasi bar */
+
+    .single-cari{
+        margin: 1rem 0;
+    }
+
+    .heading-cari{
+        /* border-top: 1px solid #e0e0e0; */
+        padding: 1em 0;
+        
+        
+    }
+    #custom-nav{
+        /* background-color: rgb(247, 247, 247); */
+        background-color: white;  
+        
+        
+    }
+
+    .logo{
+        color: rgb(113, 113, 113);
+    }
+    
+    #custom-nav a{
+        color: rgb(113, 113, 113);
+        
+       
+    }
+    
+    .btn{
+        /* background-color: rgb(97, 151, 244); */
+        /* color: white; */
+        border: 1px solid #ced4da;
+        background-color: #FAFBFF;
+    }
+    #search-box{
+        padding-right: 0.4em;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border: none;
+    }
+  
+    .full-mobile{
+        /* background-color: blueviolet; */
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .random-box{
+        height: 10rem;
+    }
+    .form-control{
+        border-radius: 3rem;
+    }
+    .btn{
+        border-radius: 3rem;
+
+    }
+    .kiri{
+        display: none;
+    }
+
+    /* pencarian */
+    .kotak-hasil{
+        padding: 1rem;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        margin: 20px 20px;
+    }
+
+    .judul-post-pencarian{
+        
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* custom 404 */
+    .box-404{
+        padding-bottom: 100px;
+        padding-top: 80px ;
+    }
+    .custom-404{
+       
+        font-size: 5rem;
+        text-align: center;
+    }
+    .keterangan-404{
+        font-size: 1rem;
+        font-weight: 300;;
+        text-align: center;
+    }
+
+    /* footer nav */
+    .footer-container{
+        padding: 1rem 3rem;
+        color: #c5c5c5;
+        font-size: 0.8rem;
+    }
+
+    .front-header:hover{
+        text-decoration: none;
+        color: #22273c;
+
+    }
+
+    .footer-header-nav{
+        font-size: 1.2rem;
+        /* border-bottom: 2px solid #c5c5c5; */
+        font-weight: 600;
+        padding: 0.2em;
+    }
+
+    .copyright{
+        margin-bottom: 0;
+        padding-bottom: 0.5em;
+    }
+
+    /* atur warna */
+
+    .footer{
+        margin-top: 100px;
+        background-color: #22273c;
+        /* box-shadow: 0px -1px 10px rgb(211, 211, 211); */
+    }
+    .footer a{
+    
+        color: #c5c5c5;
+        font-size: 0.8rem;
+    }
+
+
+    .footer-header-nav, .copyright, .footer-nav{
+        color: #c5c5c5;
+        font-size: 0.8rem;
+    }
+
+    .konten{
+        min-height: 50vh;
+    }
+
+    .tidak-ada{
+        background: rgb(254, 109, 109);
+        padding: 1rem;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+    }
+
+
+
+}
+  
+   
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .bone{
+        margin-top: 1rem;
+    }
+    .full-mobile{
+        /* background-color: blueviolet; */
+        height: 0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+        
+    }
+    .full-mobile{
+        display: none;
+    }
+    .heading-cari{
+        display: none;
+    }
+    .sticky-top{
+        position:static;
+    }
+    .random-box{
+        display: none;
+    }
+    .kiri{
+        display: inline-block;
+    }
+    .custom-desktop{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        /* background-color: red; */
+        justify-content: space-between;
+        height: 3rem;
+        align-items: center;
+    }
+
+    .judul-post-pencarian{
+        
+        font-weight: 500;
+        text-align: center;
+        color: #2c2d30;
+        
+        
+    }
+    .pencarian-judul{
+        border-right: 1px solid  #ced4da;
+    }
+
+     /* footer nav */
+     .footer-container{
+        padding: 1rem 1rem;
+     }
+    .footer-header-nav{
+        font-size: 1.2rem;
+        /* border-bottom: 1px solid #ced4da; */
+        text-align: left;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
